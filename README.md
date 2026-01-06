@@ -5,7 +5,7 @@ This tool allows users to explicitly install or remove the large non-free firmwa
 
 This application provides a simple and transparent way to manage the kernel-firmware-nonfree package.
 
-By default, many live or portable systems avoid installing this package due to its size (~1 GB installed) and the fact that most common hardware is already supported by smaller firmware packages (Intel / Realtek Wi-Fi, etc.).
+By default, many live or portable systems avoid installing this package due to its size (~1,5 GB installed) and the fact that most common hardware is already supported by smaller firmware packages (Intel / Realtek Wi-Fi, etc.).
 
 Instead of shipping the full firmware set by default, this GUI offers a single, explicit action to install or remove the package on an already installed system.
 
