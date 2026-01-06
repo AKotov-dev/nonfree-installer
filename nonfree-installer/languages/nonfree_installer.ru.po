@@ -1,0 +1,62 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+
+#: tmainform.caption
+msgid "kernel-firmware-nonfree installer"
+msgstr ""
+
+#: tmainform.installbtn.caption
+msgid "Install"
+msgstr "Установить"
+
+#: tmainform.label1.caption
+msgid ""
+"The kernel-firmware-nonfree package is not included in MgaRemix-Proserpina.\n"
+"The approximate size after installation is 1.5 GB.\n"
+"  \n"
+"This package contains all the firmware files without an open source\n"
+"license but used by the in-kernel drivers.\n"
+"  \n"
+"The files are shared by all kernels.\n"
+"  \n"
+"Other non-free firmware files are contained in the radeon-firmware,\n"
+"iwlwifi-firmware, ralink-firmware and rtlwifi-firmware packages.\n"
+"  \n"
+"Open source firmware files are contained in the kernel-firmware\n"
+"package in the core section."
+msgstr ""
+"Пакет kernel-firmware-nonfree не включен в MgaRemix-Proserpina.\n"
+"Примерный размер после установки составляет 1,5 ГБ.\n"
+"  \n"
+"Этот пакет содержит все файлы прошивок без открытой лицензии,\n"
+"но используемые драйверами ядра.\n"
+"  \n"
+"Файлы используются всеми ядрами.\n"
+"  \n"
+"Другие несвободные прошивки содержатся в пакетах radeon-firmware,\n"
+"iwlwifi-firmware, ralink-firmware и rtlwifi-firmware.\n"
+"  \n"
+"Прошивки с открытым исходным кодом содержатся в kernel-firmware,\n"
+"в разделе core."
+
+#: tmainform.uninstallbtn.caption
+msgid "UnInstall"
+msgstr "Удалить"
+
+#: unit1.sinstallconfirmation
+msgid "Install kernel-firmware-nonfree package?"
+msgstr "Установить пакет kernel-firmware-nonfree?"
+
+#: unit1.suninstallconfirmation
+msgid "Uninstall kernel-firmware-nonfree package??"
+msgstr "Удалить пакет kernel-firmware-nonfree?"

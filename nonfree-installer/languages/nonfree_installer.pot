@@ -1,0 +1,40 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: tmainform.caption
+msgid "kernel-firmware-nonfree installer"
+msgstr ""
+
+#: tmainform.installbtn.caption
+msgid "Install"
+msgstr ""
+
+#: tmainform.label1.caption
+msgid ""
+"The kernel-firmware-nonfree package is not included in MgaRemix-Proserpina.\n"
+"The approximate size after installation is 1.5 GB.\n"
+"  \n"
+"This package contains all the firmware files without an open source\n"
+"license but used by the in-kernel drivers.\n"
+"  \n"
+"The files are shared by all kernels.\n"
+"  \n"
+"Other non-free firmware files are contained in the radeon-firmware,\n"
+"iwlwifi-firmware, ralink-firmware and rtlwifi-firmware packages.\n"
+"  \n"
+"Open source firmware files are contained in the kernel-firmware\n"
+"package in the core section."
+msgstr ""
+
+#: tmainform.uninstallbtn.caption
+msgid "UnInstall"
+msgstr ""
+
+#: unit1.sinstallconfirmation
+msgid "Install kernel-firmware-nonfree package?"
+msgstr ""
+
+#: unit1.suninstallconfirmation
+msgid "Uninstall kernel-firmware-nonfree package??"
+msgstr ""
+

@@ -1,0 +1,4 @@
+{"version":1,"strings":[
+{"hash":162164399,"name":"unit1.sinstallconfirmation","sourcebytes":[73,110,115,116,97,108,108,32,107,101,114,110,101,108,45,102,105,114,109,119,97,114,101,45,110,111,110,102,114,101,101,32,112,97,99,107,97,103,101,63],"value":"Install kernel-firmware-nonfree package?"},
+{"hash":111602703,"name":"unit1.suninstallconfirmation","sourcebytes":[85,110,105,110,115,116,97,108,108,32,107,101,114,110,101,108,45,102,105,114,109,119,97,114,101,45,110,111,110,102,114,101,101,32,112,97,99,107,97,103,101,63,63],"value":"Uninstall kernel-firmware-nonfree package??"}
+]}

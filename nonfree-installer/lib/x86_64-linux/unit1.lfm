@@ -1,0 +1,133 @@
+object MainForm: TMainForm
+  Left = 309
+  Height = 528
+  Top = 127
+  Width = 713
+  ActiveControl = LogMemo
+  Caption = 'kernel-firmware-nonfree installer'
+  ClientHeight = 528
+  ClientWidth = 713
+  LCLVersion = '4.4.0.0'
+  OnCreate = FormCreate
+  object Label1: TLabel
+    Left = 8
+    Height = 221
+    Top = 8
+    Width = 474
+    Caption = 'The kernel-firmware-nonfree package is not included in MgaRemix-Proserpina.'#10'The approximate size after installation is 1.5 GB.'#10'  '#10'This package contains all the firmware files without an open source'#10'license but used by the in-kernel drivers.'#10'  '#10'The files are shared by all kernels.'#10'  '#10'Other non-free firmware files are contained in the radeon-firmware,'#10'iwlwifi-firmware, ralink-firmware and rtlwifi-firmware packages.'#10'  '#10'Open source firmware files are contained in the kernel-firmware'#10'package in the core section.'
+  end
+  object InstallBtn: TSpeedButton
+    AnchorSideTop.Control = Label1
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    Left = 559
+    Height = 44
+    Top = 8
+    Width = 146
+    Anchors = [akTop, akRight]
+    BorderSpacing.Right = 8
+    Caption = 'Install'
+    OnClick = InstallBtnClick
+  end
+  object UninstallBtn: TSpeedButton
+    AnchorSideTop.Control = InstallBtn
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    Left = 559
+    Height = 44
+    Top = 55
+    Width = 146
+    Anchors = [akTop, akRight]
+    BorderSpacing.Top = 3
+    BorderSpacing.Right = 8
+    Caption = 'UnInstall'
+    OnClick = UninstallBtnClick
+  end
+  object LogMemo: TMemo
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = Label1
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    AnchorSideBottom.Control = Owner
+    AnchorSideBottom.Side = asrBottom
+    Left = 8
+    Height = 281
+    Top = 239
+    Width = 697
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    BorderSpacing.Left = 8
+    BorderSpacing.Top = 10
+    BorderSpacing.Right = 8
+    BorderSpacing.Bottom = 8
+    Font.Height = -13
+    Font.Name = 'Liberation Mono'
+    ParentFont = False
+    ReadOnly = True
+    ScrollBars = ssVertical
+    TabOrder = 1
+  end
+  object ProgressBar1: TProgressBar
+    AnchorSideLeft.Control = Label1
+    AnchorSideLeft.Side = asrBottom
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    AnchorSideBottom.Control = Label1
+    AnchorSideBottom.Side = asrBottom
+    Left = 490
+    Height = 12
+    Top = 217
+    Width = 215
+    Anchors = [akLeft, akRight, akBottom]
+    BorderSpacing.Left = 8
+    BorderSpacing.Right = 8
+    TabOrder = 0
+  end
+  object Image1: TImage
+    AnchorSideLeft.Control = ProgressBar1
+    AnchorSideLeft.Side = asrCenter
+    AnchorSideTop.Side = asrBottom
+    AnchorSideBottom.Control = ProgressBar1
+    Left = 565
+    Height = 64
+    Top = 145
+    Width = 64
+    Anchors = [akLeft, akBottom]
+    AutoSize = True
+    BorderSpacing.Top = 11
+    BorderSpacing.Bottom = 8
+    Picture.Data = {
+      1754506F727461626C654E6574776F726B477261706869639603000089504E47
+      0D0A1A0A0000000D4948445200000040000000400806000000AA6971DE000000
+      0473424954080808087C08648800000009704859730000016200000162015F27
+      D0530000001974455874536F667477617265007777772E696E6B73636170652E
+      6F72679BEE3C1A0000031349444154789CED994B48545118C7FFDFB9F3C007ED
+      7B409B560905654965B8C80A4AA916B58B8C8A16632D2A9D4D898BCA3468D3CC
+      22282C70658BA007E1688B1E50A8D128E8A6764544811031A3D3CCBDA74DC6E8
+      5C6DC673EEFD06E6FC76F7C1FFFCEF9F7BBFEF9C73093ED1DC276529F78F7412
+      79E5251FE1C720E58C0980DB003726006E03DC9800B80D706302E036C08D0980
+      DB00375AE6DB3B6EC9AA9A1C5E02D8A643AF089282D098E8A094AA90B605C7DE
+      5EB946124601ACD5A5B904DF8485ED898BF4598798B64F60384A5F85C0210069
+      5D9A2ECC41E288AE870734D780C4257A4F401B809296BE4522897066244AEF74
+      8A6A2F82C39DF450023DBA7521717DB8830674CB7AD2055E74E032240675E949
+      E051E32CBA74E9E5E34D1B2492A920DA008C69504B5A84E3DDDDE468D02AC0D3
+      6D270D9D416BC577C3D389906267D05EF1DDF07C26B8C2CEE049C577C397A970
+      C99DC1A38AEF866F6B81623B839715DF0DFF1643C575064F2BBE1BBEFC7CC867
+      99CEE079C577C3F7E5F0129DC1978AEF06CB7EC0A2CEE05BC52F3BF6F4C96BCD
+      BDF22AA78700E7E0BBD3B80200239C260C150E8DF5ECFAE8647F6FE036928F15
+      0EDFAB8FBE39BDDC3D93F1036D5252BFCA3812B82FB2E1DA06B2AC591521DDD8
+      99CCA90F7D4D4797BA9E8CB5D6494971C561A6724111113B2F0CCD8860E83011
+      79B18DB56272D9CCC0F89DFDAB179F9FB8B9AF46C0190450AD209FB21DE758FD
+      D927690100F59DAF125628AC9AA8561CDB0EC9995F6F0B2E5405E312D8A8281F
+      D972FEF934903711DA1A7D7D4E04439F1485B5E264B3EBC77B1BEFCE1F276FB7
+      9C047042455342F66F6E7FF660FE78C13C201BAE6D08383FBF48DBAE52194427
+      7FEBC11055AF9A26383145B9A95CD06ACF3F51B0181ABDD1D42A603F561C482B
+      24AC1F2210C80058A7A22303A1BAF957FF9FB6DB8D13B18365551001606EE6BB
+      B24643D758C1F356FCCF511300B7016E4C00DC06B83101701BE0A6E20350DE12
+      DB1479BAE07832DE52D2756E2AFE0D3001701BE046B906FCEF9B2EB76F7E3115
+      FF069800B80D706302E036C08D0980DB003726006E03DC9800B80D70F307EBC9
+      F1BE55D783620000000049454E44AE426082
+    }
+  end
+end

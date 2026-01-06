@@ -1,0 +1,68 @@
+[NAME]
+name=nonfree-installer
+
+[VERSION]
+version=0.1
+
+[RELEASE]
+release=0.mrx10
+
+[GROUP]
+group=Accessibility
+
+[DESCRIPTION]
+0=kernel-firmware-nonfree package installer
+1=---
+2=More information: /usr/share/doc/package_name/repack.txt
+
+[MAINTAINER]
+maintainer=Alex Kotov
+
+[VENDOR]
+vendor=alex_q_2000 (C) 2026
+
+[SUMMARY]
+summary=kernel-firmware-nonfree package installer
+
+[URLCOPY]
+urlcopy=https://github.com/AKotov-dev/nonfree-installer
+
+[LICENSE]
+license=GPLv3
+
+[DEPS]
+deps=gtk2 urpmi
+
+[META]
+meta=0
+
+[NOARCH]
+noarch=0
+
+[DEB]
+deb=0
+
+[FILES]
+0=/usr/bin/nonfree-installer
+1=/usr/share/icons/nonfree-installer.png
+2=/usr/share/applications/nonfree-installer.desktop
+3=/usr/share/polkit-1/actions/nonfree-installer.policy
+4=/usr/share/nonfree-installer/
+5=/usr/share/doc/nonfree-installer/
+
+[URL32]
+url32=https://github.com/AKotov-dev/adbmanager
+
+[PROGRAMNAME]
+programname=Nonfree Installer
+
+[DEVTOOL]
+devtool=Lazarus
+
+[TOOLVERSION]
+toolversion=4.4
+
+[INFO]
+0=v0.1
+1=+ First release
+2=+ RPM Package for MgaRemix-10
