@@ -1,5 +1,5 @@
 # Kernel Firmware Non-Free Installer GUI
-A lightweight graphical installer/uninstaller for the kernel-firmware-nonfree package on Mageia-based systems.
+A lightweight graphical installer/uninstaller for the `kernel-firmware-nonfree` package on Mageia-based systems.
 
 This tool allows users to explicitly install or remove the large non-free firmware bundle only when it is actually needed, helping to keep live systems and minimal installations lightweight.
 
