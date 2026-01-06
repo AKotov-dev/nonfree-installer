@@ -62,7 +62,7 @@ end;
 //Install
 procedure TMainForm.InstallBtnClick(Sender: TObject);
 begin
-  if MessageDlg(SConfirmation, mtConfirmation, [mbYes, mbNo], 0) = mrYes then
+  if MessageDlg(SInstallConfirmation, mtConfirmation, [mbYes, mbNo], 0) = mrYes then
   begin
     command :=
       'if [ -d /run/mgalive/ovlsize ]; then echo "Installation on a flash drive is not possible!"; exit 0; fi; '
@@ -74,7 +74,7 @@ end;
 //UnInstall
 procedure TMainForm.UninstallBtnClick(Sender: TObject);
 begin
-  if MessageDlg(SConfirmation, mtConfirmation, [mbYes, mbNo], 0) = mrYes then
+  if MessageDlg(SUnInstallConfirmation, mtConfirmation, [mbYes, mbNo], 0) = mrYes then
   begin
     command :=
       '[ -d /run/mgalive/ovlsize ] && exit 0; urpmi.update -a && urpme --auto kernel-firmware-nonfree';

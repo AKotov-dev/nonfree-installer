@@ -48,6 +48,8 @@ procedure TMainForm.FormCreate(Sender: TObject);
 var
   bmp: TBitmap;
 begin
+  MainForm.Caption := Application.Title;
+
   //Устраняем баг иконки приложения
   bmp := TBitmap.Create;
   try

@@ -4,7 +4,7 @@ object MainForm: TMainForm
   Top = 127
   Width = 713
   ActiveControl = LogMemo
-  Caption = 'kernel-firmware-nonfree installer'
+  Caption = 'nonfree-installer'
   ClientHeight = 528
   ClientWidth = 713
   LCLVersion = '4.4.0.0'
