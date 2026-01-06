@@ -3,7 +3,7 @@ A lightweight graphical installer/uninstaller for the `kernel-firmware-nonfree` 
 
 This tool allows users to explicitly install or remove the large non-free firmware bundle only when it is actually needed, helping to keep live systems and minimal installations lightweight.
 
-![](https://github.com/AKotov-dev/nonfree-installer/blob/main/Snapshot2.png)
+![](https://github.com/AKotov-dev/nonfree-installer/blob/main/Snapshot3.png)
 
 This application provides a simple and transparent way to manage the kernel-firmware-nonfree package.
 

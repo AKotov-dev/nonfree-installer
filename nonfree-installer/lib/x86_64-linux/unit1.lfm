@@ -1,12 +1,12 @@
 object MainForm: TMainForm
   Left = 309
-  Height = 528
+  Height = 549
   Top = 127
-  Width = 713
+  Width = 755
   ActiveControl = LogMemo
   Caption = 'nonfree-installer'
-  ClientHeight = 528
-  ClientWidth = 713
+  ClientHeight = 549
+  ClientWidth = 755
   LCLVersion = '4.4.0.0'
   OnCreate = FormCreate
   object Label1: TLabel
@@ -20,7 +20,7 @@ object MainForm: TMainForm
     AnchorSideTop.Control = Label1
     AnchorSideRight.Control = Owner
     AnchorSideRight.Side = asrBottom
-    Left = 559
+    Left = 601
     Height = 44
     Top = 8
     Width = 146
@@ -34,7 +34,7 @@ object MainForm: TMainForm
     AnchorSideTop.Side = asrBottom
     AnchorSideRight.Control = Owner
     AnchorSideRight.Side = asrBottom
-    Left = 559
+    Left = 601
     Height = 44
     Top = 55
     Width = 146
@@ -53,9 +53,9 @@ object MainForm: TMainForm
     AnchorSideBottom.Control = Owner
     AnchorSideBottom.Side = asrBottom
     Left = 8
-    Height = 281
+    Height = 302
     Top = 239
-    Width = 697
+    Width = 739
     Anchors = [akTop, akLeft, akRight, akBottom]
     BorderSpacing.Left = 8
     BorderSpacing.Top = 10
@@ -78,7 +78,7 @@ object MainForm: TMainForm
     Left = 490
     Height = 12
     Top = 217
-    Width = 215
+    Width = 257
     Anchors = [akLeft, akRight, akBottom]
     BorderSpacing.Left = 8
     BorderSpacing.Right = 8
@@ -89,7 +89,7 @@ object MainForm: TMainForm
     AnchorSideLeft.Side = asrCenter
     AnchorSideTop.Side = asrBottom
     AnchorSideBottom.Control = ProgressBar1
-    Left = 565
+    Left = 586
     Height = 64
     Top = 145
     Width = 64
